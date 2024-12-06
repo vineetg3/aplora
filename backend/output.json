@@ -1,1281 +1,713 @@
 [
     {
-        "class": [
-            "pointer",
-            "please-upload-resume",
-            "btn-text"
-        ],
-        "id": "resume-upload",
+        "autocomplete": "given-name",
         "text_above_htmltag": [
-            "Software Engineer in Test - Mobile",
-            "Resume",
-            "*"
+            "given-name:"
         ],
         "text_below_htmltag": [
-            "Please upload resume",
-            "or",
-            "Build your resume"
-        ],
-        "key": "button_1",
-        "idx": 0,
-        "tag_type": "button",
-        "is_relevant_or_required": "no",
-        "text_value": null,
-        "is_filled": "no",
-        "select_option_value": null,
-        "general_input_group": "button",
-        "description": "A button to upload a resume for the Software Engineer in Test position."
-    },
-    {
-        "class": [
-            "pointer",
-            "please-upload-resume",
-            "btn-text",
-            "applyform-build-your-profile"
-        ],
-        "text_above_htmltag": [
-            "*",
-            "Please upload resume",
-            "or"
-        ],
-        "text_below_htmltag": [
-            "Build your resume",
-            "First Name",
-            "*"
-        ],
-        "key": "button_2",
-        "idx": 1,
-        "tag_type": "button",
-        "is_relevant_or_required": "no",
-        "text_value": null,
-        "is_filled": "no",
-        "select_option_value": null,
-        "general_input_group": "button",
-        "description": "A button prompting the user to upload a resume or build their profile."
-    },
-    {
-        "class": [
-            "form-control",
-            "apply-form-text-input"
-        ],
-        "id": "first-name-input",
-        "aria-label": "First Name",
-        "autocomplete": "on",
-        "name": "",
-        "type": "text",
-        "value": "",
-        "required": "",
-        "role": "textbox",
-        "text_above_htmltag": [
-            "Build your resume",
-            "First Name",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Last Name",
-            "*",
-            "Phone Number"
+            "additional-name:"
         ],
         "key": "input_1",
+        "idx": 0,
+        "tag_type": "input",
+        "is_relevant_or_required": "yes",
+        "text_value": "Vineet",
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input field for given name."
+    },
+    {
+        "autocomplete": "additional-name",
+        "text_above_htmltag": [
+            "given-name:",
+            "additional-name:"
+        ],
+        "text_below_htmltag": [
+            "family-name:"
+        ],
+        "key": "input_2",
+        "idx": 1,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input field for additional name."
+    },
+    {
+        "autocomplete": "family-name",
+        "text_above_htmltag": [
+            "additional-name:",
+            "family-name:"
+        ],
+        "text_below_htmltag": [
+            "name:"
+        ],
+        "key": "input_3",
         "idx": 2,
         "tag_type": "input",
         "is_relevant_or_required": "yes",
-        "text_value": "VINEET",
-        "is_filled": "yes",
+        "text_value": "Gandham",
+        "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "input text",
-        "description": "Input field for the user's first name."
+        "general_input_group": null,
+        "description": "Input field for family name."
     },
     {
-        "class": [
-            "form-control",
-            "apply-form-text-input"
-        ],
-        "id": "last-name-input",
-        "aria-label": "Last Name",
-        "autocomplete": "on",
-        "name": "",
-        "type": "text",
-        "value": "",
-        "required": "",
-        "role": "textbox",
+        "autocomplete": "name",
         "text_above_htmltag": [
-            "*",
-            "Last Name",
-            "*"
+            "family-name:",
+            "name:"
         ],
         "text_below_htmltag": [
-            "Phone Number",
-            "\ud83c\uddfa\ud83c\uddf8 +1",
-            "Email"
+            "organization:"
         ],
-        "key": "input_2",
+        "key": "input_4",
         "idx": 3,
         "tag_type": "input",
         "is_relevant_or_required": "yes",
-        "text_value": "GANDHAM",
-        "is_filled": "yes",
+        "text_value": "Vineet Gandham",
+        "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "input text",
-        "description": "Input field for the user's last name."
+        "general_input_group": null,
+        "description": "Input field for name."
     },
     {
-        "id": "phone-country-code-dropdown",
-        "aria-label": "Select country code",
-        "aria-haspopup": "false",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "organization",
         "text_above_htmltag": [
-            "*",
-            "Phone Number",
-            "\ud83c\uddfa\ud83c\uddf8 +1"
+            "name:",
+            "organization:"
         ],
         "text_below_htmltag": [
-            "Email",
-            "*",
-            "My Information"
+            "street-address:"
         ],
-        "key": "input_3",
+        "key": "input_5",
         "idx": 4,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "Dropdown to select a country code for the phone number."
+        "general_input_group": null,
+        "description": "Input field for organization."
     },
     {
-        "class": [
-            "form-control",
-            "applyFormTextInput-3RXIh",
-            "apply-form-text-input"
-        ],
-        "id": "phone-input",
-        "aria-label": "Phone Number",
-        "autocomplete": "on",
-        "name": "",
-        "type": "text",
-        "value": "",
-        "required": "",
-        "role": "textbox",
+        "autocomplete": "street-address",
         "text_above_htmltag": [
-            "*",
-            "Phone Number",
-            "\ud83c\uddfa\ud83c\uddf8 +1"
+            "organization:",
+            "street-address:"
         ],
         "text_below_htmltag": [
-            "Email",
-            "*",
-            "My Information"
-        ],
-        "key": "input_4",
-        "idx": 5,
-        "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "+1 979 344 3541",
-        "is_filled": "yes",
-        "select_option_value": null,
-        "general_input_group": "input text",
-        "description": "Input field for the user's phone number."
-    },
-    {
-        "class": [
-            "form-control",
-            "apply-form-text-input"
-        ],
-        "id": "postion-apply-input-email",
-        "aria-label": "Email",
-        "autocomplete": "on",
-        "name": "",
-        "type": "text",
-        "value": "",
-        "required": "",
-        "role": "textbox",
-        "text_above_htmltag": [
-            "\ud83c\uddfa\ud83c\uddf8 +1",
-            "Email",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "My Information",
-            "How did you hear about us?",
-            "*"
-        ],
-        "key": "input_5",
-        "idx": 6,
-        "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "vineet.gandham@tamu.edu",
-        "is_filled": "yes",
-        "select_option_value": null,
-        "general_input_group": "input text",
-        "description": "Input field for the user's email address."
-    },
-    {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "0-1-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "0-1-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
-        "text_above_htmltag": [
-            "My Information",
-            "How did you hear about us?",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Are you a previous Employee of PayPal or any of its subsidiaries?",
-            "*",
-            "Country"
+            "address-line1:"
         ],
         "key": "input_6",
+        "idx": 5,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input field for street address."
+    },
+    {
+        "autocomplete": "address-line1",
+        "text_above_htmltag": [
+            "street-address:",
+            "address-line1:"
+        ],
+        "text_below_htmltag": [
+            "address-line2:"
+        ],
+        "key": "input_7",
+        "idx": 6,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input field for address line 1."
+    },
+    {
+        "autocomplete": "address-line2",
+        "text_above_htmltag": [
+            "address-line1:",
+            "address-line2:"
+        ],
+        "text_below_htmltag": [
+            "address-line3:"
+        ],
+        "key": "input_8",
         "idx": 7,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "Dropdown for additional questions, asking about previous employment at PayPal."
+        "general_input_group": null,
+        "description": "Input field for address line 2."
     },
     {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand How did you hear about us?",
-        "type": "button",
-        "role": "presentation",
+        "autocomplete": "address-line3",
         "text_above_htmltag": [
-            "My Information",
-            "How did you hear about us?",
-            "*"
+            "address-line2:",
+            "address-line3:"
         ],
         "text_below_htmltag": [
-            "Are you a previous Employee of PayPal or any of its subsidiaries?",
-            "*",
-            "Country"
+            "address-level3:"
         ],
-        "key": "button_3",
+        "key": "input_9",
         "idx": 8,
-        "tag_type": "button",
+        "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "button",
-        "description": "A button to expand the question about how the user heard about the job."
+        "general_input_group": null,
+        "description": "Input field for address line 3."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "0-2-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "0-2-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "address-level3",
         "text_above_htmltag": [
-            "*",
-            "Are you a previous Employee of PayPal or any of its subsidiaries?",
-            "*"
+            "address-line3:",
+            "address-level3:"
         ],
         "text_below_htmltag": [
-            "Country",
-            "*",
-            "Terms and Conditions"
+            "address-level2:"
         ],
-        "key": "input_7",
+        "key": "input_10",
         "idx": 9,
         "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "US",
-        "is_filled": "yes",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "Dropdown for additional questions, asking for the user's country."
+        "general_input_group": null,
+        "description": "Input for the third line of an address."
     },
     {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand Are you a previous Employee of PayPal or any of its subsidiaries?",
-        "type": "button",
-        "role": "presentation",
+        "autocomplete": "address-level2",
         "text_above_htmltag": [
-            "*",
-            "Are you a previous Employee of PayPal or any of its subsidiaries?",
-            "*"
+            "address-level3:",
+            "address-level2:"
         ],
         "text_below_htmltag": [
-            "Country",
-            "*",
-            "Terms and Conditions"
+            "address-level1:"
         ],
-        "key": "button_4",
+        "key": "input_11",
         "idx": 10,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "Button to expand the question about previous employment with PayPal or its subsidiaries."
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input for the second line of an address."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "0-3-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "0-3-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "address-level1",
         "text_above_htmltag": [
-            "*",
-            "Country",
-            "*"
+            "address-level2:",
+            "address-level1:"
         ],
         "text_below_htmltag": [
-            "Terms and Conditions",
-            "Learn more about how PayPal processes your personal data by reviewing our",
-            "PayPal Candidate Privacy Statement"
+            "postal-code:"
         ],
-        "key": "input_8",
+        "key": "input_12",
         "idx": 11,
         "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "US",
-        "is_filled": "yes",
-        "select_option_value": "US",
-        "general_input_group": "dropdown",
-        "description": "Dropdown to select the country, required for input."
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input for the first line of an address."
     },
     {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand Country",
-        "type": "button",
-        "role": "presentation",
+        "autocomplete": "postal-code",
         "text_above_htmltag": [
-            "*",
-            "Country",
-            "*"
+            "address-level1:",
+            "postal-code:"
         ],
         "text_below_htmltag": [
-            "Terms and Conditions",
-            "Learn more about how PayPal processes your personal data by reviewing our",
-            "PayPal Candidate Privacy Statement"
+            "country (abbr.):"
         ],
-        "key": "button_5",
+        "key": "input_13",
         "idx": 12,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "Button to expand the country selection."
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input for the postal code associated with the address."
     },
     {
-        "id": "ln84gra",
-        "aria-label": "Yes, I have read and consent to this Privacy Statement.",
-        "type": "checkbox",
-        "value": "Yes, I have read and consent to this Privacy Statement.",
-        "role": "checkbox",
+        "autocomplete": "country",
         "text_above_htmltag": [
-            ".",
-            "*",
-            "Yes, I have read and consent to this Privacy Statement."
+            "postal-code:",
+            "country (abbr.):"
         ],
         "text_below_htmltag": [
-            "Yes, I have read and consent to this Privacy Statement.",
-            "Please review the",
-            "PayPal Non-disclosure Agreement"
+            "country-name:"
         ],
-        "key": "input_9",
+        "key": "input_14",
         "idx": 13,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Checkbox to confirm reading and consenting to the Privacy Statement."
+        "general_input_group": null,
+        "description": "Input for the abbreviated country name."
     },
     {
-        "id": "nujic3k",
-        "aria-label": "Yes, I acknowledge and agree to abide by the terms of this Nondisclosure Agreement.",
-        "type": "checkbox",
-        "value": "Yes, I acknowledge and agree to abide by the terms of this Nondisclosure Agreement.",
-        "role": "checkbox",
+        "autocomplete": "country-name",
         "text_above_htmltag": [
-            "and acknowledge your understanding and intention to comply with PayPal nondisclosure policies.",
-            "*",
-            "Yes, I acknowledge and agree to abide by the terms of this Nondisclosure Agreement."
+            "country (abbr.):",
+            "country-name:"
         ],
         "text_below_htmltag": [
-            "Yes, I acknowledge and agree to abide by the terms of this Nondisclosure Agreement.",
-            "Voluntary Disclosures",
-            "Note:"
+            "email:"
         ],
-        "key": "input_10",
+        "key": "input_15",
         "idx": 14,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Checkbox to acknowledge and agree to the terms of the Nondisclosure Agreement."
+        "general_input_group": null,
+        "description": "Input for the full country name."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "1-6-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "1-6-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "email",
         "text_above_htmltag": [
-            "Veteran Status",
-            "If you believe you belong to any of the categories of protected veterans listed above, please indicate by selecting the ",
-            "*"
+            "country-name:",
+            "email:"
         ],
         "text_below_htmltag": [
-            "Gender:",
-            "*",
-            "Race/Ethnicity:"
+            "tel:"
         ],
-        "key": "input_11",
+        "key": "input_16",
         "idx": 15,
         "tag_type": "input",
         "is_relevant_or_required": "yes",
-        "text_value": null,
-        "is_filled": "yes",
+        "text_value": "vineet.gandham@tamu.edu",
+        "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "Dropdown to indicate veteran status, required for input."
+        "general_input_group": null,
+        "description": "Input for the user's email address."
     },
     {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand Veteran StatusIf you believe you belong to any of the categories of protected veterans listed above, please indicate by selecting the appropriate box below. As a Government contractor subject to VEVRAA, we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA.",
-        "type": "button",
-        "role": "presentation",
+        "autocomplete": "tel",
         "text_above_htmltag": [
-            "Veteran Status",
-            "If you believe you belong to any of the categories of protected veterans listed above, please indicate by selecting the ",
-            "*"
+            "email:",
+            "tel:"
         ],
         "text_below_htmltag": [
-            "Gender:",
-            "*",
-            "Race/Ethnicity:"
+            "tel-country-code:"
         ],
-        "key": "button_6",
+        "key": "input_17",
         "idx": 16,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "Button to expand the veteran status selection."
-    },
-    {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "1-7-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "1-7-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
-        "text_above_htmltag": [
-            "*",
-            "Gender:",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Race/Ethnicity:",
-            "Please select any/all group(s) that you identify with",
-            "*"
-        ],
-        "key": "input_12",
-        "idx": 17,
         "tag_type": "input",
         "is_relevant_or_required": "yes",
+        "text_value": "(979)-344-3541",
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input for the user's telephone number."
+    },
+    {
+        "autocomplete": "tel-country-code",
+        "text_above_htmltag": [
+            "tel:",
+            "tel-country-code:"
+        ],
+        "text_below_htmltag": [
+            "tel-national:"
+        ],
+        "key": "input_18",
+        "idx": 17,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
         "text_value": null,
-        "is_filled": "yes",
-        "select_option_value": "Male",
-        "general_input_group": "dropdown",
-        "description": "Dropdown to select gender, required for input."
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": null,
+        "description": "Input for the country code of the telephone number."
     },
     {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand Gender:",
-        "type": "button",
-        "role": "presentation",
+        "autocomplete": "tel-national",
         "text_above_htmltag": [
-            "*",
-            "Gender:",
-            "*"
+            "tel-country-code:",
+            "tel-national:"
         ],
         "text_below_htmltag": [
-            "Race/Ethnicity:",
-            "Please select any/all group(s) that you identify with",
-            "*"
+            "tel-area-code:"
         ],
-        "key": "button_7",
+        "key": "input_19",
         "idx": 18,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "Button to expand the gender selection."
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "input text",
+        "description": "Input for the national telephone code."
     },
     {
-        "id": "ot5k1ro",
-        "aria-label": "American Indian or Alaskan Native",
-        "type": "checkbox",
-        "value": "05_US",
-        "role": "checkbox",
+        "autocomplete": "tel-area-code",
         "text_above_htmltag": [
-            "Please select any/all group(s) that you identify with",
-            "*",
-            "American Indian or Alaskan Native"
+            "tel-national:",
+            "tel-area-code:"
         ],
         "text_below_htmltag": [
-            "American Indian or Alaskan Native",
-            "Asian",
-            "Asian"
+            "tel-local:"
         ],
-        "key": "input_13",
+        "key": "input_20",
         "idx": 19,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Checkbox to select American Indian or Alaskan Native as an identity group."
+        "general_input_group": "input text",
+        "description": "Input for the area code of the telephone number."
     },
     {
-        "id": "9ldxj9n",
-        "aria-label": "Asian",
-        "type": "checkbox",
-        "value": "08_US",
-        "role": "checkbox",
+        "autocomplete": "tel-local",
         "text_above_htmltag": [
-            "American Indian or Alaskan Native",
-            "American Indian or Alaskan Native",
-            "Asian"
+            "tel-area-code:",
+            "tel-local:"
         ],
         "text_below_htmltag": [
-            "Asian",
-            "Black or African American",
-            "Black or African American"
+            "tel-local-prefix:"
         ],
-        "key": "input_14",
+        "key": "input_21",
         "idx": 20,
         "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "yes",
+        "is_relevant_or_required": "no",
+        "text_value": null,
         "is_filled": "no",
-        "select_option_value": "yes",
-        "general_input_group": "checkbox",
-        "description": "Select if you identify as Asian."
+        "select_option_value": null,
+        "general_input_group": "input text",
+        "description": "Input for the local number part of the telephone."
     },
     {
-        "id": "u2a9169",
-        "aria-label": "Black or African American",
-        "type": "checkbox",
-        "value": "02_US",
-        "role": "checkbox",
+        "autocomplete": "tel-local-prefix",
         "text_above_htmltag": [
-            "Asian",
-            "Asian",
-            "Black or African American"
+            "tel-local:",
+            "tel-local-prefix:"
         ],
         "text_below_htmltag": [
-            "Black or African American",
-            "Hispanic or Latino",
-            "Hispanic or Latino"
+            "tel-local-suffix:"
         ],
-        "key": "input_15",
+        "key": "input_22",
         "idx": 21,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Select if you identify as Black or African American."
+        "general_input_group": "input text",
+        "description": "Input for the local number prefix."
     },
     {
-        "id": "hbyugdp",
-        "aria-label": "Hispanic or Latino",
-        "type": "checkbox",
-        "value": "03_US",
-        "role": "checkbox",
+        "autocomplete": "tel-local-suffix",
         "text_above_htmltag": [
-            "Black or African American",
-            "Black or African American",
-            "Hispanic or Latino"
+            "tel-local-prefix:",
+            "tel-local-suffix:"
         ],
         "text_below_htmltag": [
-            "Hispanic or Latino",
-            "Native Hawaiian or Other Pacific Islander",
-            "Native Hawaiian or Other Pacific Islander"
+            "Credit Card"
         ],
-        "key": "input_16",
+        "key": "input_23",
         "idx": 22,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Select if you identify as Hispanic or Latino."
+        "general_input_group": "input text",
+        "description": "Input for the local number suffix."
     },
     {
-        "id": "pnr8i0v",
-        "aria-label": "Native Hawaiian or Other Pacific Islander",
-        "type": "checkbox",
-        "value": "09_US",
-        "role": "checkbox",
+        "autocomplete": "cc-name",
         "text_above_htmltag": [
-            "Hispanic or Latino",
-            "Hispanic or Latino",
-            "Native Hawaiian or Other Pacific Islander"
+            "Credit Card",
+            "cc-name:"
         ],
         "text_below_htmltag": [
-            "Native Hawaiian or Other Pacific Islander",
-            "White (Not of Hispanic Origin)",
-            "White (Not of Hispanic Origin)"
+            "cc-given-name:"
         ],
-        "key": "input_17",
+        "key": "input_24",
         "idx": 23,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Select if you identify as Native Hawaiian or Other Pacific Islander."
+        "general_input_group": "input text",
+        "description": "Input for the name on the credit card."
     },
     {
-        "id": "mwnspuc",
-        "aria-label": "White (Not of Hispanic Origin)",
-        "type": "checkbox",
-        "value": "01_US",
-        "role": "checkbox",
+        "autocomplete": "cc-given-name",
         "text_above_htmltag": [
-            "Native Hawaiian or Other Pacific Islander",
-            "Native Hawaiian or Other Pacific Islander",
-            "White (Not of Hispanic Origin)"
+            "cc-name:",
+            "cc-given-name:"
         ],
         "text_below_htmltag": [
-            "White (Not of Hispanic Origin)",
-            "Do not wish to identify",
-            "Do not wish to identify"
+            "cc-additional-name:"
         ],
-        "key": "input_18",
+        "key": "input_25",
         "idx": 24,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Select if you identify as White (Not of Hispanic Origin)."
+        "general_input_group": "input text",
+        "description": "Input for the given name on the credit card."
     },
     {
-        "id": "wzhx74b",
-        "aria-label": "Do not wish to identify",
-        "type": "checkbox",
-        "value": "ETHNICITY-3-33",
-        "role": "checkbox",
+        "autocomplete": "cc-additional-name",
         "text_above_htmltag": [
-            "White (Not of Hispanic Origin)",
-            "White (Not of Hispanic Origin)",
-            "Do not wish to identify"
+            "cc-given-name:",
+            "cc-additional-name:"
         ],
         "text_below_htmltag": [
-            "Do not wish to identify",
-            "Voluntary Self-Identification of Disability",
-            "Language"
+            "cc-family-name:"
         ],
-        "key": "input_19",
+        "key": "input_26",
         "idx": 25,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "checkbox",
-        "description": "Select if you do not wish to identify your ethnicity."
+        "general_input_group": "input text",
+        "description": "Input for the additional name on the credit card."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "2-1-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "2-1-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "cc-family-name",
         "text_above_htmltag": [
-            "Voluntary Self-Identification of Disability",
-            "Language",
-            "*"
+            "cc-additional-name:",
+            "cc-family-name:"
         ],
         "text_below_htmltag": [
-            "Application Questions",
-            "I am related to or associated with a Politically Exposed Person (PEP). A PEP is defined as an individual who is or has b",
-            "*"
+            "cc-number:"
         ],
-        "key": "input_20",
+        "key": "input_27",
         "idx": 26,
         "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "I do not have a disability",
-        "is_filled": "yes",
-        "select_option_value": "I do not have a disability",
-        "general_input_group": "dropdown",
-        "description": "Select additional questions related to voluntary self-identification of disability."
-    },
-    {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand Language",
-        "type": "button",
-        "role": "presentation",
-        "text_above_htmltag": [
-            "Voluntary Self-Identification of Disability",
-            "Language",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Application Questions",
-            "I am related to or associated with a Politically Exposed Person (PEP). A PEP is defined as an individual who is or has b",
-            "*"
-        ],
-        "key": "button_8",
-        "idx": 27,
-        "tag_type": "button",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "button",
-        "description": "Expand options related to language."
+        "general_input_group": "input text",
+        "description": "Input for the family name on the credit card."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "3-0-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "3-0-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "cc-number",
         "text_above_htmltag": [
-            "Application Questions",
-            "I am related to or associated with a Politically Exposed Person (PEP). A PEP is defined as an individual who is or has b",
-            "*"
+            "cc-family-name:",
+            "cc-number:"
         ],
         "text_below_htmltag": [
-            "I am a current or former Politically Exposed Person (PEP).",
-            "*",
-            "I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships exclu"
+            "cc-exp-month:"
         ],
-        "key": "input_21",
+        "key": "input_28",
+        "idx": 27,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "input text",
+        "description": "Input field for entering credit card number."
+    },
+    {
+        "autocomplete": "cc-exp-month",
+        "text_above_htmltag": [
+            "cc-number:",
+            "cc-exp-month:"
+        ],
+        "text_below_htmltag": [
+            "cc-exp-year:"
+        ],
+        "key": "input_29",
         "idx": 28,
         "tag_type": "input",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "Select additional questions related to being a Politically Exposed Person (PEP)."
+        "general_input_group": "input text",
+        "description": "Input field for entering the expiration month of the credit card."
     },
     {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand I am related to or associated with a Politically Exposed Person (PEP). A PEP is defined as an individual who is or has been entrusted with a prominent public function. Examples of PEPs include Member of Parliament/Senator, retired Judge, Central Bank Governor/Chairman, Former Police Commissioner, Head of National transport bodies (like rail, bus, airlines etc).",
-        "type": "button",
-        "role": "presentation",
+        "autocomplete": "cc-exp-year",
         "text_above_htmltag": [
-            "Application Questions",
-            "I am related to or associated with a Politically Exposed Person (PEP). A PEP is defined as an individual who is or has b",
-            "*"
+            "cc-exp-month:",
+            "cc-exp-year:"
         ],
         "text_below_htmltag": [
-            "I am a current or former Politically Exposed Person (PEP).",
-            "*",
-            "I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships exclu"
+            "cc-exp:"
         ],
-        "key": "button_9",
+        "key": "input_30",
         "idx": 29,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "input text",
+        "description": "Input field for entering the expiration year of the credit card."
+    },
+    {
+        "autocomplete": "cc-exp",
+        "text_above_htmltag": [
+            "cc-exp-year:",
+            "cc-exp:"
+        ],
+        "text_below_htmltag": [],
+        "key": "input_31",
+        "idx": 30,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "input text",
+        "description": "Input field for entering additional expiration information related to the credit card."
+    },
+    {
+        "type": "submit",
+        "value": "Submit",
+        "text_above_htmltag": [
+            "cc-exp:"
+        ],
+        "text_below_htmltag": [
+            "Reset"
+        ],
+        "key": "input_32",
+        "idx": 31,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "button",
+        "description": "Submit button for processing the credit card information."
+    },
+    {
+        "type": "reset",
+        "text_above_htmltag": [],
+        "text_below_htmltag": [
+            "Reset"
+        ],
+        "key": "button_1",
+        "idx": 32,
         "tag_type": "button",
         "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
         "general_input_group": "button",
-        "description": "Expand options related to being related to a Politically Exposed Person (PEP)."
+        "description": "Reset button to clear the form fields."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "3-1-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "3-1-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "username",
         "text_above_htmltag": [
-            "*",
-            "I am a current or former Politically Exposed Person (PEP).",
-            "*"
+            "username:"
         ],
         "text_below_htmltag": [
-            "I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships exclu",
-            "*",
-            "I understand that a positive declaration does not mean that I would automatically be disqualified from being considered "
+            "current-password:"
         ],
-        "key": "input_22",
-        "idx": 30,
-        "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": null,
-        "is_filled": "yes",
-        "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "This dropdown allows users to indicate if they are a current or former Politically Exposed Person (PEP). It is a required field."
-    },
-    {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand I am a current or former Politically Exposed Person (PEP).",
-        "type": "button",
-        "role": "presentation",
-        "text_above_htmltag": [
-            "*",
-            "I am a current or former Politically Exposed Person (PEP).",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships exclu",
-            "*",
-            "I understand that a positive declaration does not mean that I would automatically be disqualified from being considered "
-        ],
-        "key": "button_10",
-        "idx": 31,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "This button expands additional information regarding the current or former Politically Exposed Person (PEP) declaration."
-    },
-    {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "3-2-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "3-2-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
-        "text_above_htmltag": [
-            "*",
-            "I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships exclu",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "I understand that a positive declaration does not mean that I would automatically be disqualified from being considered ",
-            "*",
-            "Are you legally authorized to work in the United States for PayPal?"
-        ],
-        "key": "input_23",
-        "idx": 32,
-        "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": null,
-        "is_filled": "yes",
-        "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "This dropdown is for users to disclose their relationships to individuals within the PayPal group of companies. It is a required field."
-    },
-    {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships excluded) with an employee working in the PayPal group of companies",
-        "type": "button",
-        "role": "presentation",
-        "text_above_htmltag": [
-            "*",
-            "I am related to or have a close relationship (common friendships, acquaintanceships and past working relationships exclu",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "I understand that a positive declaration does not mean that I would automatically be disqualified from being considered ",
-            "*",
-            "Are you legally authorized to work in the United States for PayPal?"
-        ],
-        "key": "button_11",
+        "key": "input_33",
         "idx": 33,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "This button expands additional information regarding relationships with employees of PayPal."
-    },
-    {
-        "class": [
-            "form-control"
-        ],
-        "id": "3-3-additional-questions-date-today",
-        "autocomplete": "on",
-        "name": "",
-        "type": "text",
-        "value": "December 5, 2024",
-        "role": "textbox",
-        "text_above_htmltag": [
-            "*",
-            "I understand that a positive declaration does not mean that I would automatically be disqualified from being considered ",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Are you legally authorized to work in the United States for PayPal?",
-            "*",
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to "
-        ],
-        "key": "input_24",
-        "idx": 34,
         "tag_type": "input",
-        "is_relevant_or_required": "yes",
+        "is_relevant_or_required": "no",
         "text_value": null,
         "is_filled": "no",
         "select_option_value": null,
         "general_input_group": "input text",
-        "description": "This input field is for users to enter a date, specifically related to employment authorization."
+        "description": "Input field for entering the username."
     },
     {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "3-4-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "3-4-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
+        "autocomplete": "current-password",
+        "type": "password",
         "text_above_htmltag": [
-            "*",
-            "Are you legally authorized to work in the United States for PayPal?",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to ",
-            "*",
-            "Cancel"
-        ],
-        "key": "input_25",
-        "idx": 35,
-        "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "yes",
-        "is_filled": "yes",
-        "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "This dropdown asks if the user is legally authorized to work in the United States for PayPal. It is a required field."
-    },
-    {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand  Are you legally authorized to work in the United States for PayPal?",
-        "type": "button",
-        "role": "presentation",
-        "text_above_htmltag": [
-            "*",
-            "Are you legally authorized to work in the United States for PayPal?",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to ",
-            "*",
-            "Cancel"
-        ],
-        "key": "button_12",
-        "idx": 36,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "This button expands additional information regarding the user's work authorization in the United States."
-    },
-    {
-        "class": [
-            "select-module_select-input__bO0s9",
-            "input-module_input-medium__fG9TN",
-            "input-module_pill-shape__CUJRY",
-            "input-module_pill-shape-with-icon-button__OyWMC",
-            "input-module_input-stretch__u8aMG",
-            "input-module_right-icon__cF8xj",
-            "input-module_clear-not-visible__Uo7Aj"
-        ],
-        "id": "3-5-additional-questions-dropdown",
-        "aria-haspopup": "true",
-        "aria-required": "true",
-        "autocomplete": "3-5-additional-questions-dropdown",
-        "type": "text",
-        "value": "",
-        "role": "combobox",
-        "text_above_htmltag": [
-            "*",
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to ",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Cancel",
-            "Submit"
-        ],
-        "key": "input_26",
-        "idx": 37,
-        "tag_type": "input",
-        "is_relevant_or_required": "yes",
-        "text_value": "i need sponsorship",
-        "is_filled": "yes",
-        "select_option_value": null,
-        "general_input_group": "dropdown",
-        "description": "This dropdown inquires whether the user will require sponsorship for employment visa status in the future. It is a required field."
-    },
-    {
-        "class": [
-            "input-module_icon-button__3YG-L",
-            "input-module_right-icon__cF8xj",
-            "button-module_button__WDVlB",
-            "button-module_button-system-ui__X4s-1",
-            "button-module_transparent__1p1eO",
-            "button-module_button-medium__Z9ekA",
-            "button-module_round-shape__4a1Rx",
-            "button-module_icon-left__l9ikB"
-        ],
-        "aria-label": "Expand Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to work legally for PayPal in the United States?",
-        "type": "button",
-        "role": "presentation",
-        "text_above_htmltag": [
-            "*",
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to ",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Cancel",
-            "Submit"
-        ],
-        "key": "button_13",
-        "idx": 38,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "This button expands additional information regarding the user's sponsorship needs for employment visa status."
-    },
-    {
-        "class": [
-            "btn-sm",
-            "pointer",
-            "position-apply-cancel-button"
-        ],
-        "text_above_htmltag": [
-            "*",
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to ",
-            "*"
-        ],
-        "text_below_htmltag": [
-            "Cancel",
-            "Submit"
-        ],
-        "key": "button_14",
-        "idx": 39,
-        "tag_type": "button",
-        "general_input_group": "button",
-        "description": "This is a submit button for the form, allowing the user to finalize their inputs."
-    },
-    {
-        "class": [
-            "btn-sm",
-            "btn-primary",
-            "pointer",
-            "position-apply-button"
-        ],
-        "text_above_htmltag": [
-            "Do you now, or will you in the future, require sponsorship for employment visa status (e.g., H-1B visa status, etc.) to ",
-            "*",
-            "Cancel"
-        ],
-        "text_below_htmltag": [
-            "Submit",
-            "{\"domain\": \"paypal.com\", \"user\": \"\", \"isWillingToRelocate\": false, \"isUserAuthenticated\": false, \"isUserETXCandidate\": f"
-        ],
-        "key": "button_15",
-        "idx": 40,
-        "tag_type": "button"
-    },
-    {
-        "class": [
-            "g-recaptcha-response"
-        ],
-        "id": "g-recaptcha-response-100000",
-        "name": "g-recaptcha-response",
-        "text_above_htmltag": [
-            "rating-form-element .rating-container {display: flex !important; justify-content: center !important;} .survey-container "
+            "username:",
+            "current-password:"
         ],
         "text_below_htmltag": [],
-        "key": "textarea_1",
-        "idx": 41,
-        "tag_type": "textarea"
+        "key": "input_34",
+        "idx": 34,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "input text",
+        "description": "Input field for entering the current password."
+    },
+    {
+        "type": "submit",
+        "value": "Login",
+        "text_above_htmltag": [
+            "current-password:"
+        ],
+        "text_below_htmltag": [
+            "Registration form"
+        ],
+        "key": "input_35",
+        "idx": 35,
+        "tag_type": "input",
+        "is_relevant_or_required": "no",
+        "text_value": null,
+        "is_filled": "no",
+        "select_option_value": null,
+        "general_input_group": "button",
+        "description": "Login button to submit the username and password."
+    },
+    {
+        "autocomplete": "username",
+        "text_above_htmltag": [
+            "username:"
+        ],
+        "text_below_htmltag": [
+            "new-password:"
+        ],
+        "key": "input_36",
+        "idx": 36,
+        "tag_type": "input"
+    },
+    {
+        "autocomplete": "new-password",
+        "type": "password",
+        "text_above_htmltag": [
+            "username:",
+            "new-password:"
+        ],
+        "text_below_htmltag": [],
+        "key": "input_37",
+        "idx": 37,
+        "tag_type": "input"
+    },
+    {
+        "type": "submit",
+        "value": "Register",
+        "text_above_htmltag": [
+            "new-password:"
+        ],
+        "text_below_htmltag": [],
+        "key": "input_38",
+        "idx": 38,
+        "tag_type": "input"
     }
 ]

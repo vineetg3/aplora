@@ -1,11 +1,7 @@
-first name: VINEET 
-last name: GANDHAM 
-pronouns: (He/him)
-please fill linkedin field!!
-www.linkedin.com/in/vineetgandham www.github.com/vineetg3 vineet.gandham@tamu.edu. My phone number is +1 979 344 3541.
-sponsorship questions are required. i need sponsorship
-
-i live at 3645 wellborn road, 1612, 77801 bryan tx.
-If there is a question asking why do i want to work there, fill it with something clever and nice PLEASEE.
-my location is the US.
-my gender is man. my race is asian. i do not have a disability, this is a required tag. fill it if there is a dropdown
+VINEET GANDHAM
+www.linkedin.com/in/vineetgandham www.github.com/vineetg3 vineet.gandham@tamu.edu (979)-344-3541
+EDUCATION
+Texas A&M University, College Station, Texas |Master of Computer Science |CGPA: 4.0/4.0 Manipal Institute of Technology, Manipal |B.Tech in Computer Science, Minor in Big Data |CGPA: 9.37/10.0 Dec 2024
+July 2022
+Courses - ML |LLMs |Database |Object Oriented Programming |Operating Systems |Distributed Processing |Network Security |Data
+Structures and Algorithms |Cloud Computing |Software Engineering

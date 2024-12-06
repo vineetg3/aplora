@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Content Extractor",
+  "name": "Aplora",
   "version": "1.0",
   "permissions": ["activeTab", "scripting", "debugger"],
   "host_permissions": ["<all_urls>"],
@@ -17,5 +17,7 @@
       "resources": ["content.js"],
       "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "author":"Vineet Gandham",
+  "author_email":"vineet.formasters@gmail.com"
 }
