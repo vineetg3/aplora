@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Content Extractor",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "debugger"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extract Page Content"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

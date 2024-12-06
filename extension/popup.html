@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aplora</title>
+    <style>
+      /* Basic styling for the popup */
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      .spinner {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #3498db;
+        border-radius: 50%;
+        display: inline-block;
+        animation: spin 1s linear infinite;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    </style>
+  </head>
+  <body>
+    <h2>Let's automate filling!</h2>
+    <!-- Button to extract the content from the active tab -->
+    <button id="fillContent">Fill content</button>
+    <!-- Div to show the extracted content -->
+    <div id="result"></div>
+    <!-- Script that handles the logic for content extraction -->
+    <script src="popup.js"></script>
+  </body>
+</html>
