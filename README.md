@@ -11,9 +11,9 @@ Aplora is a cutting-edge Chrome extension designed to streamline the process of 
 - **Versatile**: Capable of handling various types of online forms with minimal configuration.
 
 ### Form Filling in Action
-Watch how Aplora automatically fills out a job application form using information from the context document in the demo below:
+Watch how Aplora automatically fills out a job application form using information from the context document in the following video:
 
-<img src="demo.gif" alt="Aplora Form Filling Demo" width="800"/>
+![Aplora Form Filling Demo](demo.gif)
 
 The demonstration above shows Aplora's seamless form-filling capabilities, including:
 - Automatic field detection and mapping
@@ -49,7 +49,7 @@ The demonstration above shows Aplora's seamless form-filling capabilities, inclu
    This creates an `out` directory containing the extension code.
 5. Load the extension into Chrome:
    - Open `chrome://extensions/` in your Chrome browser.
-   - Enable “Developer Mode” (top-right corner).
+   - Enable "Developer Mode" (top-right corner).
    - Click on "Load unpacked" and select the `out` directory.
 6. The extension should now be available in your Chrome extensions bar.
 
@@ -74,7 +74,7 @@ The Python server is responsible for processing the context document and integra
 1. Open the webpage where you need to fill a form (e.g., job application form).
 2. Ensure the Python server is running and the context document has been updated.
 3. Click on the Aplora Chrome extension icon in the top-right corner of the browser.
-4. Click on the **“Fill Content”** button.
+4. Click on the **"Fill Content"** button.
 5. A spinner will appear while the extension works. **Do not navigate away from the page** while the spinner is active.
 6. Form filling is complete when you see the message: **"Run finished!"**
 
@@ -91,7 +91,7 @@ The Python server is responsible for processing the context document and integra
 - **Form Not Filled Correctly**: Check that the `context.txt` contains the relevant data and is formatted correctly.
 - **Extension Not Working**: Verify that the `out` directory was loaded as an unpacked Chrome extension.
 - **Server Issues**: Confirm the Docker container is running and the OpenAI API key is valid.
-- **Spinner Doesn't Stop**: Ensure you haven’t navigated away from the page and that the Python server is running.
+- **Spinner Doesn't Stop**: Ensure you haven't navigated away from the page and that the Python server is running.
 
 ---
 
