@@ -10,6 +10,16 @@ Aplora is a cutting-edge Chrome extension designed to streamline the process of 
 - **User-Friendly**: Easy-to-use interface with just one click to fill forms.
 - **Versatile**: Capable of handling various types of online forms with minimal configuration.
 
+### Form Filling in Action
+Watch how Aplora automatically fills out a job application form using information from the context document in the demo below:
+
+<img src="demo.gif" alt="Aplora Form Filling Demo" width="800"/>
+
+The demonstration above shows Aplora's seamless form-filling capabilities, including:
+- Automatic field detection and mapping
+- Intelligent content extraction from context
+- Real-time form completion
+
 ---
 
 ## Prerequisites
