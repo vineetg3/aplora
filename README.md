@@ -72,7 +72,7 @@ The Python server is responsible for processing the context document and integra
 ## How to Use the Extension
 
 1. Open the webpage where you need to fill a form (e.g., job application form).
-2. Ensure the Python server is running and the context document has been updated.
+2. Ensure the Python server is running and the context document at (backend/context.txt) has been updated.
 3. Click on the Aplora Chrome extension icon in the top-right corner of the browser.
 4. Click on the **"Fill Content"** button.
 5. A spinner will appear while the extension works. **Do not navigate away from the page** while the spinner is active.

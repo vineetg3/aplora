@@ -1,7 +1,1 @@
-VINEET GANDHAM
-www.linkedin.com/in/vineetgandham www.github.com/vineetg3 vineet.gandham@tamu.edu (979)-344-3541
-EDUCATION
-Texas A&M University, College Station, Texas |Master of Computer Science |CGPA: 4.0/4.0 Manipal Institute of Technology, Manipal |B.Tech in Computer Science, Minor in Big Data |CGPA: 9.37/10.0 Dec 2024
-July 2022
-Courses - ML |LLMs |Database |Object Oriented Programming |Operating Systems |Distributed Processing |Network Security |Data
-Structures and Algorithms |Cloud Computing |Software Engineering
+Your context document. The context document provides the information Aplora needs to fill out forms, like a resume or other key details. It acts as a guide, helping the system match the right data to the right fields with accuracy and ease.
